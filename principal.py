@@ -5,8 +5,7 @@ import ver_datos
 import buscar
 import borrar
 import actu
-def add_one(number):
-    return number + 1
+
 class Ejemplo():
     def __init__(self):
         self.ejemplo = sqlite3.connect("notass.db")
